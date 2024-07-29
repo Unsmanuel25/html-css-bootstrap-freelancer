@@ -1,0 +1,26 @@
+header {
+    height: 80px;
+    border: 2px dashed dodgerblue;
+}
+
+form {
+    min-height: 350px;
+}
+
+section {
+    min-height: 500px;
+    border: 2px dashed purple;
+}
+
+.container {
+    border: 2px dashed red
+}
+
+.container-fluid {
+    border: 2px dashed darkgreen
+}
+
+[class^='col'] {
+    border: 2px solid orange;
+    min-height: 50px;
+}
