@@ -1,6 +1,5 @@
 header {
     height: 80px;
-    border: 2px dashed dodgerblue;
 }
 
 form {
@@ -9,18 +8,86 @@ form {
 
 section {
     min-height: 500px;
-    border: 2px dashed purple;
-}
 
-.container {
-    border: 2px dashed red
-}
-
-.container-fluid {
-    border: 2px dashed darkgreen
 }
 
 [class^='col'] {
-    border: 2px solid orange;
     min-height: 50px;
+}
+
+#contacts .form-control {
+    border-width: 0 0 1px 0;
+    border-color: darkgray;
+    border-radius: 0;
+}
+
+#contacts ::placeholder {
+    color: black;
+}
+
+.bg-dark-blue {
+    background-color: darkblue;
+}
+
+.bg-green {
+    background-color: #1ABC9C;
+}
+
+.text-green {
+    color: #1ABC9C;
+}
+
+.bg-darker-blue {
+    background-color: #2C3E50
+}
+
+#avatar {
+    height: auto;
+    margin-bottom: 0.5 rem;
+    max-width: 200px;
+}
+
+.bi-star-fill {
+    font-size: 24px;
+    position: relative;
+    top: -2px;
+}
+
+.star-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.star-divider::after,
+.star-duvider::before {
+    height: 2px;
+    display: inline-block;
+    width: 50px;
+    margin: 0 10px;
+    background-color: white;
+    content: '';
+}
+
+.star-divider.dark {
+    color: black;
+}
+
+.star-divider.dark::after,
+.star-duvider.dark::before {
+    background-color: black;
+}
+
+.web-icons>li {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+}
+
+.web-icons a {
+    color: white;
 }
